@@ -1,7 +1,5 @@
 package com.sow.learning.dynamicprogramming;
 
-import com.sow.learning.helper.MatrixPrettyPrint;
-
 public class SubsetSum {
 
     private boolean canSubSet(int expectedSum, int[] values){

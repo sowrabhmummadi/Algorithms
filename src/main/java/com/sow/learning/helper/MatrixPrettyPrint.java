@@ -65,11 +65,11 @@ public final class MatrixPrettyPrint{
         print(stringTable);
     }
 
-    private void printPreparedTable(String[][] table, int widths[], String horizontalBorder) {
+    private void printPreparedTable(String[][] table, int[] widths, String horizontalBorder) {
         final int lineLength = horizontalBorder.length();
         out.println(horizontalBorder);
-        for ( final String[] row : table ) {
-            if ( row != null ) {
+        for (final String[] row : table) {
+            if (row != null) {
                 out.println(getRow(row, widths, lineLength));
                 out.println(horizontalBorder);
             }
