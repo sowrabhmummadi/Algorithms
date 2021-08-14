@@ -1,0 +1,10 @@
+Recursive backtracking program steps
+
+                |--------------------------------------------------<
+                #                                                   |
+----> check of exit condition                                       |
+--------> loops for all possibilities                               |
+------------> check for validity                                    |
+----------------> (if valid) update solution data structure         |
+----------------> recursively call  --------------------------------^
+----------------> reset the solution data structure
